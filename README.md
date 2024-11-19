@@ -84,10 +84,10 @@ The `spells` table includes the following fields:
 
 ## Screenshots
 
-![Homepage](Images/homepage.png)
-![Spells Section](images/spells-section.png)
-![Quiz Page](images/quiz-page.png)
-![Book Summary Page](images/book-summary-page.png)
+![Homepage](images/homepage.png)
+![Sorting Section](images/Sorting.png)
+![Quiz Page](images/Quiz-page.png)
+![Book Summary Page](images/book-summary.png)
 
 ## Future Enhancements
 
