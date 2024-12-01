@@ -100,11 +100,7 @@ def sortinghouse():
     else:
         print("Invalid")
 
-    print("\nQuestion 4:Which is your favorite location when you want to spend some free time?\n")
-    print("(a) library  ")
-    print("(b) any dark place")
-    print("(c) cafe ")
-    print("(d) forest\n")
+    print("""\nQuestion 4:Which is your favorite location when you want to spend some free time?\n(a) library\n(b) any dark place\n(c) cafe\n(d) forest\n""")
     q_4=input("Answer:")
     if q_4=='c':
         hufflepuff+=1
