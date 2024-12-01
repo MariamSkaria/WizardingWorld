@@ -50,7 +50,11 @@ def sortinghouse():
     print("\nHarry Potter House Quiz:\nFind y5our perfect house!\n")
     print("\nAre you wondering which Hogwarts house do you belong to? This Harry Potter House quiz will give you the answer. In the Harry Potter series,the four Houses of Hogwarts are called Hufflepuff, Gryffindor, Slytherin, and Ravenclaw. Each house has its majestic history. They have given the world some of the most outstanding wizards and witches. If you are a true Potterhead, you must have imagined yourself in Hogwarts. But if you are confused about which house you'll fit in, look no further and take this Hogwarts House quiz to find out.\n")
 
-    print("""\nQuestion 1:You are trapped in a burning building and only 10 seconds to get out.What would you do?\n(a) Save myself,of course!\n(b) Run and grab my friend who is still in the building.\n(c) It depends, if I have a way to save my friends,then yes, but if there's no way,then I am above everbody else.\n(d) I'll try, but i am not sure!\n""")
+    print("\nQuestion 1:You are trapped in a burning building and only 10 seconds to get out.What would you do?
+    print("(a) Save myself,of course!")
+    print("(b) Run and grab my friend who is still in the building.")
+    print("(c) It depends, if I have a way to save my friends,then yes, but if there's no way,then I am above everbody else.")
+    print("(d) I'll try, but i am not sure!\n")
     q_1=input("Answer:")
     if q_1=='d':
         gryffindor+=1
