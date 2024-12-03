@@ -113,11 +113,7 @@ def sortinghouse():
     else:
         print("Invalid")
 
-    print("\nQuestion 5: What's your best trait you think you have got?\n")
-    print("(a)bravery")
-    print("(b)loyalty")
-    print("(c)ambition ")
-    print("(d)intelligence\n")
+    print("\nQuestion 5: What's your best trait you think you have got?\n(a)bravery\n(b)loyalty\n(c)ambition\n(d)intelligence\n")
     q_5=input("Answer:")
     if q_5=='b':
         hufflepuff+=1
