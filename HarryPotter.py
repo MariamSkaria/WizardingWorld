@@ -198,7 +198,8 @@ def sortinghouse():
     else:
         print("Invalid")
 
-    print("\nQuestion 10:What is your favorite animal? \n")print("(a) eagle ")
+    print("\nQuestion 10:What is your favorite animal? \n")
+    print("(a) eagle ")
     print("(b) snake")
     print("(c) cat ")
     print("(d) owl\n")
