@@ -1,40 +1,61 @@
+
 from tkinter import *
 import tkinter as tk
 import PIL as p
 import PIL.ImageTk as ptk
 
+# Initialize the main window
 root=Tk()
 root.title("WIZARDING WORLD")
 root.geometry("2000x2000")
 root.configure(bg='burlywood4')
+
+# Header Frame
 H=LabelFrame(root,bd=2,relief="groove",bg="burlywood4")
 H.place(x=0,y=0,width=2020,height=65)
 label_logo=Label(H,bg="burlywood4")
 label_logo.grid(row=0,column=0)
+
+# Load the header logo image
 image_logo_large=ptk.PhotoImage(p.Image.open("Images\Logo2.jpg"))
+
+# Add title and tagline in the header frame
 name=Label(H,text="",font="arial 20 bold italic",bg="burlywood4",fg="black").grid(row=0,column=1)
 tagline=Label(H,text="WIZARDING WORLD",font="algerian 40",fg="white",bg="burlywood4").grid(row=0,column=2,padx=530)
+
+# Main Content Frame
 P_frame=LabelFrame(root,bd=2,relief="groove",text="",font="arial 16 bold",fg="burlywood4")
 P_frame.place(x=370,y=110,width=908,height=510)
 P_frame.configure(bg='burlywood4')
+
+# Display the large logo inside the content frame
 label_logo_large=Label(P_frame,image=image_logo_large,bd=2,bg="grey18").place(x=0,y=0)
 
+# Sidebar Frame
 H.place
 B_frame=LabelFrame(root,bd=2,relief="groove",bg="burlywood4")
 B_frame.place(x=2,y=120,width=350,height=480)
+
+# Add labels for different sidebar options
 B_1=Label(B_frame,text="| INTRODUCTION |",font="TimesNewRoman 15",fg="cornsilk1",bg="burlywood4")
 B_2=Label(B_frame,text="| SUMMARY OF THE BOOKS |",font="TimesNewRoman 15",fg="cornsilk1",bg="burlywood4")
 B_3=Label(B_frame,text="| SORTING |",font="TimesNewRoman 15",fg="cornsilk1",bg="burlywood4")
 B_4=Label(B_frame,text="| SPELLS |",font="TimesNewRoman 15",fg="cornsilk1",bg="burlywood4")
 B_5=Label(B_frame,text="| QUIZ |",font="TimesNewRoman 15",fg="cornsilk1",bg="burlywood4")
+
+# Arrange sidebar options in a grid
 B_1.grid(row=0,column=0,padx=10,pady=30)
 B_2.grid(row=1,column=0,padx=10,pady=30)
 B_3.grid(row=2,column=0,padx=10,pady=30)
 B_4.grid(row=3,column=0,padx=10,pady=30)
 B_5.grid(row=4,column=0,padx=10,pady=30)
 B_frame.place
+
+# Footer Content in Main Content Frame
 P_1=Label(P_frame,text="CLOSE TO CONTINUE",font="impact 20",fg="black",bg="burlywood4")
-P_1.grid(row=3,column=5,padx=690,pady=460)
+P_1.grid(row=3,column=5,padx=690,pady=460)'
+
+# Run the main loop to display the window
 root.mainloop()
 def intro():
     print("""Hey welcome to Pottermore. A miniature form of Harry Potter Official site 'Wizarding World'.
