@@ -1,4 +1,3 @@
-
 from tkinter import *
 import tkinter as tk
 import PIL as p
@@ -57,14 +56,17 @@ P_1.grid(row=3,column=5,padx=690,pady=460)'
 
 # Run the main loop to display the window
 root.mainloop()
+#Introduction line
 def intro():
     print("""Hey welcome to Pottermore. A miniature form of Harry Potter Official site 'Wizarding World'.
     This hub is for fans of Harry Potter and Fantastic Beasts. The website contains images,quizes, and many more from the Harry Potter and Fantastic
     Beasts films.""")
-   
+
+#Summary 
 def summarize_text():
     return "\n Wish you found that helpful \n"
 
+#Sorting hat quiz
 def sortinghouse():
     gryffindor=0
     ravenclaw=0
