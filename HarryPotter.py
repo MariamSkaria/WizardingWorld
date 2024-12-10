@@ -37,7 +37,9 @@ P_1=Label(P_frame,text="CLOSE TO CONTINUE",font="impact 20",fg="black",bg="burly
 P_1.grid(row=3,column=5,padx=690,pady=460)
 root.mainloop()
 def intro():
-    print("Hey welcome to Pottermore. A miniature form of Harry Potter Official site 'Wizarding World'. This hub is for fans of Harry Potter and Fantastic Beasts. The website contains images,quizes, and many more from the Harry Potter and Fantastic Beasts films.")
+    print("""Hey welcome to Pottermore. A miniature form of Harry Potter Official site 'Wizarding World'.
+    This hub is for fans of Harry Potter and Fantastic Beasts. The website contains images,quizes, and many more from the Harry Potter and Fantastic
+    Beasts films.""")
    
 def summarize_text():
     return "\n Wish you found that helpful \n"
