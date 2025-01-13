@@ -15,7 +15,7 @@ H.place(x=0,y=0,width=2020,height=65)
 label_logo=Label(H,bg="burlywood4")
 label_logo.grid(row=0,column=0)
 
-
+# Load the header logo image
 image_logo_large=ptk.PhotoImage(p.Image.open("Images\Logo2.jpg"))
 
 # Add title and tagline in the header frame
