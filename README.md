@@ -1,6 +1,6 @@
 # WizardingWorld
 
-Welcome to the "WizardingWorld!" This project is a Python-powered web application dedicated to exploring the magical world of Harry Potter. It includes an interactive collection of spells, quizzes to test your knowledge, and summaries of each book in the series.
+Welcome to the "WizardingWorld!" .This project is a Python-powered web application dedicated to exploring the magical world of Harry Potter. It includes an interactive collection of spells, quizzes to test your knowledge, and summaries of each book in the series.
 
 ## Table of Contents
 - [Features](#features)
